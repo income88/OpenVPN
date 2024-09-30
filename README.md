@@ -3,6 +3,7 @@ Lệnh chạy Unlimited nếu lỗi Could not resolve host mirrorlist_centos_org
 cd /tmp/ && yum install git -y && git clone https://github.com/income88/OpenVPN && cd OpenVPN/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
 
 ..........................................
+
 From first of July 2024 on CentOS 7, please switch to Vault archive repositories:
 
 vi /etc/yum.repos.d/CentOS-Base.repo
