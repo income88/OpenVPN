@@ -41,4 +41,5 @@ yum clean all
 yum update
 
 Kiểm tra phiên bản Centos
+
 cat /etc/centos-release
