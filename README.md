@@ -55,7 +55,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
   
 If needed, do: yum clean all
 
-yum update
+yum update -y
 
 Kiểm tra phiên bản Centos
 
