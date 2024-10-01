@@ -66,16 +66,15 @@ python3.8 --version
 
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.8 1
 
+CÀI RH-PYTHON 3.8
+
+sudo yum install centos-release-scl-rh -y
 
 FIX LỖI Could not retrieve mirrorlist thêm lần nữa do cài python mới là 3.8
 
 sed -i.bak 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
 
 sed -i.bak 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
-
-CÀI RH-PYTHON 3.8
-
-sudo yum install centos-release-scl-rh -y
 
 sudo yum install rh-python38 rh-python38-python-lxml rh-python38-python-pycparser rh-python38-python-idna rh-python38-python-cryptography -y
 
