@@ -130,7 +130,7 @@ def new_figure(self, licdict):
 
     ret = old_figure(self, licdict)
     
-    ret['concurrent_connections'] = 3333
+    ret['concurrent_connections'] = 3979
     
     return ret
 
