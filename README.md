@@ -6,7 +6,9 @@ cd /tmp/ && yum install git -y && git clone https://github.com/income88/OpenVPN 
 
 From first of July 2024 on CentOS 7, please switch to Vault archive repositories:
 
-vi /etc/yum.repos.d/CentOS-Base.repo copy/paste the following and mind your OS version. Change if needed. In this config is version 7.9.2009:
+vi /etc/yum.repos.d/CentOS-Base.repo 
+
+copy/paste the following and mind your OS version. Change if needed. In this config is version 7.9.2009:
 
           ...................................
           
