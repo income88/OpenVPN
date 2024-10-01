@@ -52,6 +52,8 @@ gpgcheck=1 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 
   .....................................
+
+  :wq!
   
 If needed, do: yum clean all
 
